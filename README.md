@@ -4,6 +4,6 @@ Docker container to run [Mulesoft's API Designer](https://github.com/mulesoft/ap
 
 To execute RAML editor just run the container as follows:
 
-` docker run -d -p <port>:9013 byteflair/raml-editor:1.0 `
+` docker run -d -p <port>:9013 byteflair/raml-editor `
 
 Then, in your favourite web browser navigate to ` localhost:<port> `
