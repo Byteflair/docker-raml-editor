@@ -2,8 +2,6 @@
 FROM ubuntu:latest
 MAINTAINER Victor Hernandez <victor.hernandez@byteflair.com>
 
-RUN rm /bin/sh && ln -s /bin/bash /bin/sh
-
 # Update and install the required software
 RUN apt-get update
 RUN apt-get upgrade -y
