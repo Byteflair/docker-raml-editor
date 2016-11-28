@@ -1,7 +1,7 @@
 # Dockerfile for RAML API Designter
 # Updated 20150430
 FROM ubuntu:latest
-MAINTAINER Victor Hernandez <victor.hernandez@byteflair.com>
+MAINTAINER Byteflair <hola@byteflair.com>
 
 # Update and install the required software
 RUN apt-get update
